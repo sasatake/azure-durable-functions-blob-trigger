@@ -1,0 +1,14 @@
+{
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "azureFunctions.projectRuntime": "~2",
+  "azureFunctions.projectLanguage": "C#",
+  "azureFunctions.templateFilter": "Verified",
+  "azureFunctions.deploySubpath": "bin/Release/netcoreapp2.1/publish",
+  "azureFunctions.preDeployTask": "publish",
+  "debug.internalConsoleOptions": "neverOpen"
+}
